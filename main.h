@@ -20,7 +20,7 @@ typedef struct specify
 	int (*f)(va_list);
 } specify_t;
 
-int get_str(const char *format, specify_t f_list[], va_list arg_list);
+int get_str(const char *format, specify_t list[], va_list args);
 int _printf(const char *format, ...);
 int _putchar(char);
 int p_char(va_list);

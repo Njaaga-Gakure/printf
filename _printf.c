@@ -13,6 +13,8 @@ int _printf(const char *format, ...)
 		{"c", p_char},
 		{"s", p_str},
 		{"%", p_percent},
+		{"d", p_int},
+		{"i", p_int},
 		{NULL, NULL}
 	};
 

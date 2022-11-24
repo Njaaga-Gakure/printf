@@ -25,6 +25,6 @@ int _putchar(char);
 int p_char(va_list);
 int p_str(va_list);
 int p_percent(va_list);
-
+int p_int(va_list);
 
 #endif

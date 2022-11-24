@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdarg.h>
@@ -26,5 +27,10 @@ int p_char(va_list);
 int p_str(va_list);
 int p_percent(va_list);
 int p_int(va_list);
+int p_binary(va_list);
+unsigned int _strlen(unsigned int, unsigned int);
+char *_memcpy(char *, char *);
+char *rev_str(char *);
+void write_num(char *);
 
 #endif

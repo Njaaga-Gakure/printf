@@ -15,6 +15,7 @@ int _printf(const char *format, ...)
 		{"%", p_percent},
 		{"d", p_int},
 		{"i", p_int},
+		{"b", p_binary},
 		{NULL, NULL}
 	};
 

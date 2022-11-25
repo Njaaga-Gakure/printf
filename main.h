@@ -37,4 +37,5 @@ int p_octal(va_list);
 int p_hex(va_list);
 int p_hexupper(va_list);
 int hex_check(int, char);
+int print_unsigned_num(unsigned int n);
 #endif
